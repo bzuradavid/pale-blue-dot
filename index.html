@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hello pale blue dot.</title>
+    <link rel="stylesheet" type="text/css" href="styles/index.css">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono%7CIBM+Plex+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0e4d09d430.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+    <header>
+        <nav class="nav">
+            <img class="logo" src="images/logo.svg" alt="logo">
+            <input id="toggle" type="checkbox" class="toggle hidden-sm hidden-lg">
+            <label for="toggle" class="toggle-open hidden-lg"><i class="fas fa-bars"></i></label>
+            <label for="toggle" class="toggle-close hidden-lg"><i class="fas fa-times"></i></label>
+            <div class="link-container">
+                <a href="#episodios" class="link">EPISODIOS</a>
+                <a href="#nosotros" class="link">NOSOTROS</a>
+                <a href="#entrevistas" class="link">ENTREVISTAS</a>
+                <a href="#topicos" class="link">TÓPICOS</a>
+            </div>
+        </nav>
+    </header>
+
+    <section id="intro">
+        <div class="container lg-pad top-margin">
+            <h1 class="title sans black light">Hello <span class="line-through">world</span> <br class="hidden-lg">pale blue dot<span class="pale-blue">.</span></h1>
+            <p class="subtitle mono black hidden-sm">El portal de podcasts que explora el mundo de la programación y<br>la tecnología. Nuevos episodios, todos los jueves cada 15 días.</p>
+            <p class="subtitle mono black hidden-lg">Un podcast que explora el mundo de la programación. Nuevos episodios, todos los jueves cada 15 días.</p>
+            <button class="button sm12" onclick="window.location.href = '#episodios';">CONOCÉ MÁS</button>
+        </div>
+    </section>
+
+    <section id="episodios">
+        <div class="skew gradient section-episodios">
+            <div class="unskew container lg-pad">
+                <h1 class="secondary-title sans white light episodios-title">Episodios</h1>
+            </div>
+            <div class="unskew lg-small-pad">
+                <div class="player-container col sm12 lg6">
+                    <iframe class="iframe" src="https://open.spotify.com/embed-podcast/episode/7AZZy2nJ4R9ZndHW0h2yxt" allow="encrypted-media"></iframe>
+                </div>
+                <div class="player-container col sm12 lg6">
+                    <iframe class="iframe" src="https://open.spotify.com/embed-podcast/episode/1ezdL2ivAGLwSE6Xbssxqt" allow="encrypted-media"></iframe>
+                </div>
+                <div class="player-container col sm12 lg6">
+                    <iframe class="iframe" src="https://open.spotify.com/embed-podcast/episode/3cWta1iiQSfvrdHaCbLkSD" allow="encrypted-media"></iframe>
+                </div>
+                <div class="player-container col sm12 lg6">
+                    <iframe class="iframe" src="https://open.spotify.com/embed-podcast/episode/31VyAQAwBiKoHVoYUCEzjQ" allow="encrypted-media"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>  
+
+    <div class="clear"></div>
+
+    <section id="nosotros">
+        <div class="lg-pad section-de-donde">
+            <div class="col sm12 lg6">
+                <img src="images/phone.png" class="sm12 lg11 phone-img" alt="phone-img">
+            </div>
+            <div class="col sm12 lg6 container-sm">
+                <h2 class="secondary-title black sans light de-donde-title">De dónde venimos</h2>
+                <p class="black mono light de-donde-text">Our posturings, our imagined self-importance, the delusion that we have some privileged position in the Universe, are challenged by this point of pale light.</p>
+                <p class="black mono light de-donde-text">Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness, there is no hint that help will come from elsewhere to save us from ourselves.</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="clear"></div>
+
+    <section id="entrevistas">
+        <div class="clear section-invitados">
+            <div class="lg-pad container invitados-title">
+                <h2 class="secondary-title sans light">Invitadas/os estelares</h2>
+            </div>
+            <img class="col sm12 lg4" src="images/photo1.png" alt="grace-hopper">
+            <img class="col sm12 lg4" src="images/photo2.png" alt="katie-bouman">
+            <img class="col sm12 lg4" src="images/photo3.png" alt="margaret-hamilton">
+            <img class="col sm12 lg4" src="images/photo4.png" alt="era-univac-computer-operators">
+            <img class="col sm12 lg4" src="images/photo5.png" alt="eniac-computer-operators">
+            <img class="col sm12 lg4" src="images/photo6.png" alt="susan-kare">
+        </div>
+    </section>
+
+    <div class="clear"></div>
+
+    <section id="topicos">
+        <div class="clear lg-pad section-topicos">
+            <h2 class="secondary-title sans light nuestros-temas-title">Algunos de nuestros temas</h2>
+            <div class="col sm12 lg3">
+                <div class="icon-container">
+                    <img class="sm12 lg12" src="images/icon1.svg" alt="remote-work">
+                </div>
+                <div class="clear container">
+                    <p class="icon-text sans align-center">Trabajo remoto</p>
+                </div>
+            </div>
+            <div class="col sm12 lg3">
+                <div class="icon-container">
+                    <img class="sm12 lg12" src="images/icon2.svg" alt="rethinking-programming">
+                </div>
+                <div class="clear container">
+                    <p class="icon-text sans align-center">Repensando la programación</p>
+                </div>
+            </div>
+            <div class="col sm12 lg3">
+                <div class="icon-container">
+                    <img class="sm12 lg12" src="images/icon3.svg" alt="code-basics">
+                </div>
+                <div class="clear container">
+                    <p class="icon-text sans align-center">Bases del código</p>
+                </div>
+            </div>
+            <div class="col sm12 lg3">
+                <div class="icon-container">
+                    <img class="sm12 lg12" src="images/icon4.svg" alt="informatic-security">
+                </div>
+                <div class="clear container">
+                    <p class="icon-text sans align-center">Seguridad informática</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="clear"></div>
+
+    <section>
+        <div class="clear section-novedades gradient">
+            <div class="container">
+                <h2 class="secondary-title sans white light align-center">¿Querés las últimas novedades?</h2>
+                <div class="center-content">
+                    <button class="button sm12" onclick="window.location.href = '#episodios';">ESCUCHÁ LOS EPISODIOS</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="clear footer">
+            <span class="mono">© 2019— Hello blue pale dot </span>
+            <div class="social-icons lg3">
+                <a href="https://www.spotify.com/ar/"><i class="icon fab fa-spotify"></i></a> 
+                <a href="https://www.instagram.com/"><i class="icon fab fa-instagram"></i></a>
+                <a href="https://www.twitter.com/"><i class="icon fab fa-twitter"></i></a>
+                <a href="https://www.facebook.com/"><i class="icon fab fa-facebook"></i></a>
+                <a href="https://www.telegram.com"><i class="icon fab fa-telegram"></i></a>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
